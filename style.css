@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 15px 0px;
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows:40px 595px 450px 420px 455px 420px 374px 334px 160px;
+    grid-template-areas: 
+    'b1 b1'
+    'b2 b2'
+    'b3 b3'
+    'b4 b5'
+    'b6 b7'
+    'b8 b9'
+    'b10 b10'
+    'b11 b11'
+    'b12 b12'
+    ;
+}
+.top{
+    background-color:lightblue;
+    grid-area:b1;
+}
+a{
+    text-decoration:none;
+}
+.build{
+    grid-area:b2;
+    background-image: url('https://th.bing.com/th/id/R.2a0e87c36e4c7ee156d055a53d97e20c?rik=tvyb%2bt4pr5CgfQ&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.build:hover{
+    opacity:unset;
+    color:rgb(214, 64, 18);
+}
+.icon{
+    grid-area: b3;
+    background-image:url('https://th.bing.com/th/id/R.ccd0511dcc566cea93e9167a3d8f6517?rik=2MhUfmeOJ9qp2g&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 25px;
+}
+.icon:hover{
+    opacity:unset;
+    color:rgb(214, 64, 18);
+}
+.left{
+    grid-area: b4;
+    background-image: url('https://th.bing.com/th/id/R.73ca87712713a226046c26c76ec1d0ee?rik=44AtrLm71AOrHA&pid=ImgRaw&r=0');
+    opacity:60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  .left:hover{
+    opacity:unset;
+    color:rgb(214, 64, 18);
+  }
+.phone{
+    grid-area: b5;
+    background-image: url('https://th.bing.com/th/id/R.4c5c560b7c12c63c838aab9163fecc8d?rik=ElCrmDYCfK4JMw&riu=http%3a%2f%2fhumanities.uclaextension.edu%2fwp-content%2fuploads%2f2017%2f08%2fBullDog.jpg&ehk=FKDfSQPHe4W%2fNyK0AQhvJZd4p2FsPy9AV2UmE5MMHDM%3d&risl=&pid=ImgRaw&r=0');
+    opacity:60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.phone:hover{
+    opacity:unset;
+    color:rgb(214, 64, 18);
+}
+.image{
+    grid-area: b6;
+    background-image: url('https://th.bing.com/th/id/OIP.bcKGFeWUB3QYYh_kXdrU8QHaE8?pid=ImgDet&rs=1');
+    opacity:60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.image:hover{
+    opacity:unset;
+    color:rgb(214, 64, 18);
+}
+.update{
+   grid-area: b7;
+   background-image: url('https://ineedpetcare.com/wp-content/uploads/2020/10/Hercules-halloween.jpg');
+   opacity:60%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+}
+.update:hover{
+    opacity:unset;
+    color:rgb(214, 64, 18);
+}
+.easy{
+   grid-area: b8;
+   background-image: url('https://canineminded.com/wp-content/uploads/2016/04/Lucky-Dog-Ranch-297-web.jpg');
+   opacity:60%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+}
+.easy:hover{
+    opacity:unset;
+    color:rgb(214, 64, 18);
+}
+.child{
+   grid-area: b9;
+   background-image:url('https://vcahospitals.com/cherry-bend/-/media/vca/images/global/services/primary-services/876x493_primaryservices_petcounseling.jpg?h=493&w=876&la=en&hash=78618FA989DAE2559852015A794650BF');
+   opacity:60%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+}
+.child:hover{
+    opacity:unset;
+    color:rgb(214, 64, 18);
+}
+.people{
+   grid-area: b10;
+   ;
+}
+.signup{
+   grid-area: b11;
+   background-color:lightgray;
+}
+.footer{
+   grid-area: b12;
+   background-color:lightsalmon;
+}
