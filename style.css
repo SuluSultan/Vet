@@ -1,9 +1,10 @@
 body{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    width:1000px;
 }
 .container{
-    margin: 15px 0px;
+    margin: 15px 0px; 
     display: grid;
     grid-template-columns: repeat (2, 1fr);
     grid-template-rows:40px 595px 450px 420px 455px 420px 374px 334px 160px;
@@ -19,9 +20,17 @@ body{
     'b12 b12'
     ;
 }
+nav a{
+padding:20px;
+color:blue;
+font-family:cursive;
+font-size: larger;
+
+}
 .top{
-    background-color:lightblue;
+    background-color:rgb(228, 169, 74);
     grid-area:b1;
+
 }
 a{
     text-decoration:none;
@@ -96,8 +105,8 @@ a{
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
-   text-align: center;
-}
+   text-align:center;
+  }
 .update:hover{
     opacity:unset;
     color:rgb(214, 64, 18);
