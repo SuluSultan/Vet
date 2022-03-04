@@ -1,1 +1,2 @@
-![png-clipart-thumbs-up-sign-illustration-thumb-signal-emoji-domain-emoticon-smiley-lettuce-emoji-hand-over](https://user-images.githubusercontent.com/87921963/156701218-c4d1b069-e38a-4016-b48d-00c1b653c324.png)
+
+![2716076](https://user-images.githubusercontent.com/87921963/156701338-f75810b7-72e5-4b02-aaff-d00cda35911e.png)
